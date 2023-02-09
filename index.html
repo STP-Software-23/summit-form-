@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Summit Form</title>
+<body>
+    <section id="formContainer"> 
+        <h1>Summit Form</h1>
+    <form method="POST" action="/"  class="formContainer">
+        <section id="fullnameSection">
+            <label for="firstName" class="form-label">Full name: </label>
+            <div class="fullName">
+                <input type="text" class="form-control" id="firstName" name="firstName">
+                <input type="text" class="form-control" id="lastName" name="lastName">
+            </div>
+        </section>
+        <section id="emailSection">
+            <label for="email" class="form-label">Email: </label>
+            <input type="email" class="form-control single" id="email" name="email">
+        </section>
+        <section id="phoneNumberSection">
+            <label for="phoneNumber" class="form-label">Phone number: </label>
+            <input type="text" class="form-control single" id="phoneNumber" name="phoneNumber">
+        </section>
+        <section id="universitySection">
+            <label for="university" class="form-label">University: </label>
+            <select class="form-select single" aria-label="Default select example" id="university" name="university">
+                <option value="" disabled selected>Choose a university</option>
+                <option value="1">Cairo university</option>
+                <option value="2">AinShams university</option>
+                <option value="3">Shubra university</option>
+                <option value="4">Banha university</option>
+                <option value="5">Zuweill university</option>
+                <option value="6">Other</option>
+              </select>
+        </section>
+        <section id="facultySection">
+            <label for="faculty" class="form-label">Faculty: </label>
+            <input type="text" class="form-control single" id="faculty" name="faculty">
+        </section>
+        <section id="graduationYearSection">
+            <label for="graduationYear" class="form-label">Graduation year: </label>
+            <select class="form-select single" aria-label="Default select example" id="graduationYear" name="graduationYear">
+                <option value="" disabled selected>Choose a year</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+            </select>
+        </section>
+
+        <section id="submitSection">
+            <button type="submit" class="btn btn-lg" id="submitBtn" name="submitBtn">Submit</button>
+        </section>
+
+    </form>
+</section>
+
+
+</head>
+<body>
+    
+</body>
+</html>
