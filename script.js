@@ -5,6 +5,7 @@ const fields = {
     lastName: document.getElementById("firstName"),
     email: document.getElementById("firstName"),
     phoneNumber: document.getElementById("phoneNumber"),
+    address: document.getElementById("address"),
     university: document.getElementById("university"),
     faculty: document.getElementById("faculty"),
     graduationYear: document.getElementById("graduationYear"),
