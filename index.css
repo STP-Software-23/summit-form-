@@ -58,10 +58,10 @@ label{
 
 @media screen and (max-width: 950px) {
     #formContainer{
-        width: 80%;
+        width: 82%;
     }
     h1{
-        font-size: 0.9em;
+        font-size: 1.5em;
     }
     label{
         font-size: 0.7em;

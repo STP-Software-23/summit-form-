@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 <link rel="stylesheet" href="index.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Summit Form</title>
@@ -14,6 +15,7 @@
         <h1>Summit Form</h1>
     <form method="POST" action="/"  class="formContainer">
         <section id="fullnameSection">
+            <span class="material-symbols-outlined">badge</span>
             <label for="firstName" class="form-label">Full name: </label>
             <div class="fullName">
                 <input type="text" class="form-control" id="firstName" name="firstName">
@@ -21,14 +23,17 @@
             </div>
         </section>
         <section id="emailSection" class="mb-3">
+            <span class="material-symbols-outlined">mail</span>
             <label for="email" class="form-label">Email: </label>
             <input type="email" class="form-control single" id="email" name="email">
         </section>
         <section id="phoneNumberSection">
+            <span class="material-symbols-outlined">call</span>
             <label for="phoneNumber" class="form-label">Phone number: </label>
             <input type="text" class="form-control single" id="phoneNumber" name="phoneNumber">
         </section>
         <section id="universitySection">
+            <span class="material-symbols-outlined">school</span>
             <label for="university" class="form-label">University: </label>
             <select class="form-select single" aria-label="Default select example" id="university" name="university">
                 <option value="" disabled selected>Choose a university</option>
@@ -41,10 +46,17 @@
               </select>
         </section>
         <section id="facultySection">
+            <span class="material-symbols-outlined">foundation</span>
             <label for="faculty" class="form-label">Faculty: </label>
             <input type="text" class="form-control single" id="faculty" name="faculty">
         </section>
+        <section>
+            <span class="material-symbols-outlined">location_home</span>
+            <label for="address" class="form-label">Address: </label>
+            <input type="text" class="form-control single" id="address" name="address">
+        </section>
         <section id="graduationYearSection">
+            <span class="material-symbols-outlined">calendar_month</span>           
             <label for="graduationYear" class="form-label">Graduation year: </label>
             <select class="form-select single" aria-label="Default select example" id="graduationYear" name="graduationYear">
                 <option value="" disabled selected>Choose a year</option>
